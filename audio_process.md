@@ -1,4 +1,4 @@
-#####利用ffmpeg来提取视频中的音频
+###利用ffmpeg来提取视频中的音频
 提取的音频应为单通道，采样率16kHz，depth为8位
 ```
 ffmpeg -i video_00000.mp4 -acodec pcm_u8 -ar 16000 -ac 1 test.wav
